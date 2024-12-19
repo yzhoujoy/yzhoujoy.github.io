@@ -115,11 +115,7 @@ analytics:
 author:
   name             : "Ying Zhou"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-<<<<<<< HEAD
   bio              : "Image Processing\n Computer Vision\n Optimization"
-=======
-  bio              : "I’m a senior system software engineer interested in image processing and computer vision. I’m passionate about exploring ML and optimization, always striving to push the boundaries of what's possible. "
->>>>>>> b45066890cfc3c4fcc62925d4fe085f2620f5e7a
   location         : "California Bay Area"
   email            :
   links:
