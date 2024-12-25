@@ -176,10 +176,10 @@ interpretations of these ideas.
 - Basis conversion: $P^{-1} APv$
   - $v \in \mathbb{R}_{1}^{n}$
   - $A \in \mathbb{R}_{2}^{nxn}$
-  - $P$ converts vector from $\mathbb{R}_{1}$ to $\mathbb{R}_{2}$
+  - $P$ converts vector from $\mathbb{R}_{1} \to \mathbb{R}_{2}$
 
-$Pv$ converts $v$ to $\mathbb{R}_{2}$, $APv$ applies transformation, $P^{-1}APv$ converts
-the result back to $\mathbb{R}_{1}$.
+$Pv \text{ converts } v \to \mathbb{R}_{2} \text{, } APv \text{ applies transformation, } P^{-1}APv \text{ converts
+the result back to } \mathbb{R}_{1}.$
 
 Finally, we discussed the elegant connection between determinants and eigenvalues:
 $$\det (A)=\prod \lambda _{i}$$
