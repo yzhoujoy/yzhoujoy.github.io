@@ -173,14 +173,13 @@ interpretations of these ideas.
 - Determinant: reflect the scaling factor of the volume.
 - Eigenvalue: describe the scaling factor along a specific dimension.
 - Eigenbasis: represents vector in eigenbasis allows matrix operation to be simplified as scaling.
-- Basis conversion: $P^{-1} APv$, 
+- Basis conversion: $P^{-1} APv$
+  - $v \in \mathbb{R}_{1}^{n}$
+  - $P$ is $\mathbb{R}_{1}^{n} -> \mathbb{R}_{2}^{n}$
+  - $A \in \mathbb{R}_{2}^{nxn}$
 
-$v$ is in $\mathbb{R}_{1}^{n}$, $P$ is the matrix to do
-$\mathbb{R}_{1}^{n}$ -> $\mathbb{R}_{2}^{n}$, $A$ is the
-operation we want to apply to $v'\ \in \ \mathbb{R}_{2}^{n}$, $P^{-1}$
-is the inverse of $P$. To apply $A$ to $v\$, we first transfer is $v$
-by $Pv$, apply $APv$, transfer back to $\mathbb{R}_{1}^{n}$ space
-$P^{-1}APv$.
+$Pv$ converts $v$ to $\mathbb{R}_{2}^{n}$, $APv$ applies transformation, $P^{-1}APv$ converts
+the result back to $\mathbb{R}_{1}^{n}$.
 
 Finally, we discussed the elegant connection between determinants and eigenvalues:
 $$\det (A)=\prod \lambda _{i}$$
