@@ -3,6 +3,10 @@ layout: post
 title:  "Linear Algebra Made Intuitive: Determinant and Eigenvalues"
 tags: math
 use_math: true
+author_profile: true
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
 ---
 
 # Linear Algebra Made Intuitive: Determinant and Eigenvalues
@@ -11,6 +15,7 @@ use_math: true
 
 Today, I came across the equation - the determiant of a matrix is equal to the product
 of all its eigenvalues.
+
 $$\det( A) \ =\ \prod _{i}( \lambda _{i}) \ \ \ \ \ \lambda _{i} \ =\ eig( A)$$
 
 It got me thinking - why is this true? Sure, it can be
@@ -69,7 +74,9 @@ For example, in 2D space, a unit square after aplying transformation
 matrix $A$, the area is scaled by the determinant
 $1*\ \det( A) \ =\ 1\ *\ ( ad\ -\ bc)$. It is easy to prove - subtracing the four triangle $A,B,C,D$ from the large rectangle $(a+c)(b+d)$.
 
-![determinant](/images/2024-12-23-determinant-and-eigenvalues/determinant.png)
+<div style="text-align: center;">
+  <img src="/images/2024-12-23-determinant-and-eigenvalues/determinant.png" alt="Determinant" width="500">
+</div>
 
 In 3D space, it reflects the scaling of a volume. [\[2\]](#references)
 
