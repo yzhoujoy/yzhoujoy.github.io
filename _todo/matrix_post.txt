@@ -7,5 +7,19 @@
 - eigenvalue of a matrix represents how much the matrix scales the space along the corresponding eigenvector.
 - determinant of a matrix denotes how much the matrix scales a geometric shape (combine all directions).
   e.g. 2D is area and 3D is the volumn.
-$\det(A) = \product \lambda_{i}$ 
+$\det(A) = \product \lambda_{i}$
+
+
+- Matrix A defines a vector space. By definition, $A v = \lambda v$, $\lambda$ is the eigenvalue and $v$ is the corresponding eigenvector.
+  Geometricly, it says, for some $v$ applying matrix transformation (rotation, scale) is equivalent to scale the $v$ by \lambda.
+  If we can select linearly independent eigenvectors to span the same vector space defined by matrix A, those selected eigenvectors
+  can be used as basis vectors and the basis is called eigenbasis. For any vector $v$ in the standard space, represent it with respect
+  to eigenbasis $E^{-1} v$, apply matrix transformation A to any vector in the standard space, is eigenvalue to applying $\lambda I$ to
+  its eigenbasis representation $E^{-1} v$. $\lambda I$ only does scaling. In factor, by converting $v$ from standard basis to eigenbasis,
+  we simplify the matrix transformation (rotation and scaling) to just scaling!
+  Some complex/expensive operation in one vector basis could be simplify by transform vectors to different basis.
+  e.g. $A^100$ (rotation + scaling) to vectors represent using standard basis, could be as simple as applying $\lambda^n I$ to vectors
+  represented using eigenbasis.
+
+
 7. the intuition of PSD matrix

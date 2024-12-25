@@ -1,12 +1,14 @@
 ---
-layout: post
 title:  "Linear Algebra Made Intuitive: Determinant and Eigenvalues"
-tags: math
+categories:
+  - blog
+tags:
+  - math
+  - linear algebra
 use_math: true
-author_profile: true
 toc: true
-toc_label: "Table of Contents"
-toc_icon: "cog"
+toc_label: "Table of Content"
+toc_icon: "heart"
 ---
 
 # Linear Algebra Made Intuitive: Determinant and Eigenvalues
