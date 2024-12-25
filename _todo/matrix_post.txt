@@ -1,0 +1,11 @@
+1. vector-vector inner and outter production. 
+2. matrix-vector production, matrix-matrix production, different representation(inner and outter)
+3. intuition of the matrix determinant.
+4. intuition of the matrix transpose. (use SVD to show the relatioship between A transpose and A inverse)
+5. (optional) change of basis.
+6. Geometric intuition of eigenvalue and eigenvector, and determinant.
+- eigenvalue of a matrix represents how much the matrix scales the space along the corresponding eigenvector.
+- determinant of a matrix denotes how much the matrix scales a geometric shape (combine all directions).
+  e.g. 2D is area and 3D is the volumn.
+$\det(A) = \product \lambda_{i}$ 
+7. the intuition of PSD matrix
