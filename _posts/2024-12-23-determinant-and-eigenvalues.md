@@ -11,11 +11,9 @@ toc_label: "Table of Content"
 toc_icon: "heart"
 ---
 
-# Linear Algebra Made Intuitive: Determinant and Eigenvalues
-
 ## Introduction
 
-Today, I came across the equation - the determiant of a matrix is equal to the product
+Today, I came across the equation - the determinant of a matrix is equal to the product
 of all its eigenvalues.
 
 $$\det( A) \ =\ \prod _{i}( \lambda _{i}) \ \ \ \ \ \lambda _{i} \ =\ eig( A)$$
@@ -76,9 +74,7 @@ For example, in 2D space, a unit square after aplying transformation
 matrix $A$, the area is scaled by the determinant
 $1*\ \det( A) \ =\ 1\ *\ ( ad\ -\ bc)$. It is easy to prove - subtracing the four triangle $A,B,C,D$ from the large rectangle $(a+c)(b+d)$.
 
-<div style="text-align: center;">
-  <img src="/images/2024-12-23-determinant-and-eigenvalues/determinant.png" alt="Determinant" width="500">
-</div>
+![eigenvector](/images/2024-12-23-determinant-and-eigenvalues/determinant.png)
 
 In 3D space, it reflects the scaling of a volume. [\[2\]](#references)
 
@@ -177,12 +173,14 @@ interpretations of these ideas.
 - Determinant: reflect the scaling factor of the volume.
 - Eigenvalue: describe the scaling factor along a specific dimension.
 - Eigenbasis: represents vector in eigenbasis allows matrix operation to be simplified as scaling.
-- Basis conversion: $P^{-1} APv$, $v$ is in $\mathbb{R}_{1}^{n}$, $P$ is the matrix to do
-$\mathbb{R}_{1}^{n} \ \rightarrow \ \mathbb{R}_{2}^{n}$ , $A$ is the
-operation we want to apply to $v'\ \in \ \mathbb{R}_{2}^{n}$ , $P^{-1}$
-is the inverse of $P$. To apply $A$ to $v\ $, we first transfer is $v$
+- Basis conversion: $P^{-1} APv$, 
+
+$v$ is in $\mathbb{R}_{1}^{n}$, $P$ is the matrix to do
+$\mathbb{R}_{1}^{n}$ -> $\mathbb{R}_{2}^{n}$, $A$ is the
+operation we want to apply to $v'\ \in \ \mathbb{R}_{2}^{n}$, $P^{-1}$
+is the inverse of $P$. To apply $A$ to $v\$, we first transfer is $v$
 by $Pv$, apply $APv$, transfer back to $\mathbb{R}_{1}^{n}$ space
-$P^{-1} APv$.
+$P^{-1}APv$.
 
 Finally, we discussed the elegant connection between determinants and eigenvalues:
 $$\det (A)=\prod \lambda _{i}$$
