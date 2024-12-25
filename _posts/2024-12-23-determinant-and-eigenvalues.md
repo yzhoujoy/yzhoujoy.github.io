@@ -2,6 +2,7 @@
 layout: post
 title:  "Linear Algebra Made Intuitive: Determinant and Eigenvalues"
 tags: math
+use_math: true
 ---
 
 # Linear Algebra Made Intuitive: Determinant and Eigenvalues
