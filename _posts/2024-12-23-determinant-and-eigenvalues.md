@@ -175,11 +175,11 @@ interpretations of these ideas.
 - Eigenbasis: represents vector in eigenbasis allows matrix operation to be simplified as scaling.
 - Basis conversion: $P^{-1} APv$
   - $v \in \mathbb{R}_{1}^{n}$
-  - $P$ is $\mathbb{R}_{1}^{n} -> \mathbb{R}_{2}^{n}$
   - $A \in \mathbb{R}_{2}^{nxn}$
+  - $P$ converts vector from $\mathbb{R}_{1}$ to $\mathbb{R}_{2}$
 
-$Pv$ converts $v$ to $\mathbb{R}_{2}^{n}$, $APv$ applies transformation, $P^{-1}APv$ converts
-the result back to $\mathbb{R}_{1}^{n}$.
+$Pv$ converts $v$ to $\mathbb{R}_{2}$, $APv$ applies transformation, $P^{-1}APv$ converts
+the result back to $\mathbb{R}_{1}$.
 
 Finally, we discussed the elegant connection between determinants and eigenvalues:
 $$\det (A)=\prod \lambda _{i}$$
